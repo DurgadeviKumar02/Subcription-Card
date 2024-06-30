@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+.container{
+     width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     margin-bottom: 150px;
+     
+     
+}
+.container__name{
+    background-color:#8B008B;
+    color: white;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.container__item{
+    background-color: #8A2BE2;
+    border-radius: 25px;
+    width: 260px;
+    height: 400px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: #8B008B 30px;
+}
+.container__item-one{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 150px;
+    margin:10px auto 10px auto;
+    padding: 30px;
+}
+.main__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    font-size: 12px; /* Smaller font size */
+    margin-top: 20px;
+    padding: 8px 16px; /* Smaller padding */
+    transition: background-color 0.3s ease;
+    display: inline-block;
+
+    
+}
+.container__one{
+    background-color:#93e4c1;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    font-size: 12px; /* Smaller font size */
+    margin-top: 20px;
+    padding: 8px 16px; /* Smaller padding */
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+.price__name{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
